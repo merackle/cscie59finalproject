@@ -1,3 +1,10 @@
+-- create schemas
+CREATE SCHEMA NEH_grants_test;
+
+-- Select the schema
+USE NEH_grants_test;
+
+-- create tables
 CREATE TABLE divisions
 (
   id INT unsigned NOT NULL AUTO_INCREMENT
