@@ -148,4 +148,4 @@ GROUP BY reader_id) pr
 ON pr.reader_id = r.id
 JOIN divisions d
 ON r.division_id = d.id
-ORDER BY d.division_name, r.last_name
+ORDER BY d.division_name, r.last_name;
