@@ -1,8 +1,8 @@
 -- create schemas
-CREATE SCHEMA NEH_grants_test;
+CREATE SCHEMA NEH_grants;
 
 -- Select the schema
-USE NEH_grants_test;
+USE NEH_grants;
 
 -- create tables
 CREATE TABLE divisions
